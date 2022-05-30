@@ -1,0 +1,185 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.17
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1653950485
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 3
+      - 13
+      - 16
+      4: 3.8.13
+      5: 0.12.17
+      8:
+      - 5
+actnorm:
+  desc: null
+  value: true
+aggregation_method:
+  desc: null
+  value: sum
+attention:
+  desc: null
+  value: true
+augment_noise:
+  desc: null
+  value: 0
+batch_size:
+  desc: null
+  value: 64
+break_train_epoch:
+  desc: null
+  value: false
+brute_force:
+  desc: null
+  value: false
+clip_grad:
+  desc: null
+  value: true
+condition_time:
+  desc: null
+  value: true
+conditioning:
+  desc: null
+  value: []
+cuda:
+  desc: null
+  value: false
+data_augmentation:
+  desc: null
+  value: false
+datadir:
+  desc: null
+  value: qm9/temp
+dataset:
+  desc: null
+  value: qm9
+dequantization:
+  desc: null
+  value: argmax_variational
+diffusion_loss_type:
+  desc: null
+  value: l2
+diffusion_noise_precision:
+  desc: null
+  value: 1.0e-05
+diffusion_noise_schedule:
+  desc: null
+  value: polynomial_2
+diffusion_steps:
+  desc: null
+  value: 1000
+dp:
+  desc: null
+  value: true
+ema_decay:
+  desc: null
+  value: 0.9999
+exp_name:
+  desc: null
+  value: edm_qm9
+filter_n_atoms:
+  desc: null
+  value: null
+generate_epochs:
+  desc: null
+  value: 1
+include_charges:
+  desc: null
+  value: true
+inv_sublayers:
+  desc: null
+  value: 1
+lr:
+  desc: null
+  value: 0.0001
+model:
+  desc: null
+  value: egnn_dynamics
+n_epochs:
+  desc: null
+  value: 3000
+n_layers:
+  desc: null
+  value: 9
+n_report_steps:
+  desc: null
+  value: 1
+n_stability_samples:
+  desc: null
+  value: 1000
+nf:
+  desc: null
+  value: 256
+no_cuda:
+  desc: null
+  value: false
+no_wandb:
+  desc: null
+  value: false
+norm_constant:
+  desc: null
+  value: 1
+normalization_factor:
+  desc: null
+  value: 1
+normalize_factors:
+  desc: null
+  value:
+  - 1
+  - 4
+  - 1
+num_workers:
+  desc: null
+  value: 0
+ode_regularization:
+  desc: null
+  value: 0.001
+online:
+  desc: null
+  value: true
+probabilistic_model:
+  desc: null
+  value: diffusion
+remove_h:
+  desc: null
+  value: false
+resume:
+  desc: null
+  value: null
+save_model:
+  desc: null
+  value: true
+sin_embedding:
+  desc: null
+  value: false
+start_epoch:
+  desc: null
+  value: 0
+tanh:
+  desc: null
+  value: true
+test_epochs:
+  desc: null
+  value: 20
+trace:
+  desc: null
+  value: hutch
+visualize_every_batch:
+  desc: null
+  value: 100000000.0
+wandb_usr:
+  desc: null
+  value: null
